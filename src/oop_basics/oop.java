@@ -12,9 +12,13 @@ package oop_basics;
 public class oop {
     
     
+    
      public static void main(String[] args) {
+         Car car = new Car("kurmata ",999.99);
          
-        System.out.println("this is package 2(oop_basics)");
+       car.CarMode();
+       car.CarPrice();
+       
     }
     
 }
