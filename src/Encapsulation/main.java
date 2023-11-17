@@ -2,7 +2,6 @@
 package Encapsulation;
 
 
-public class Encapsulation {
- 
+public class main {
     
 }
