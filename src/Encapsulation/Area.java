@@ -2,7 +2,7 @@
 package Encapsulation;
 
 
-public class Area {
+public class Area  {
     
     int length;
         int width;
@@ -10,7 +10,11 @@ public class Area {
         Area (int length,int width){
             this.length = length;
             this.width = width;
-            
+                    
     }
     
+        public void getArea(){
+            int area = length+width;
+            System.out.println("Area:"+area);
+        }
 }

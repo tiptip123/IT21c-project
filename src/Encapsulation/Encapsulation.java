@@ -8,11 +8,8 @@ public class Encapsulation extends Area {
         super(length, width);
     }
  
-     public void getArea(){
-            int area = length+width;
-            System.out.println("Area:"+area);
-        }
-    }
+     
+}
     
     
 
