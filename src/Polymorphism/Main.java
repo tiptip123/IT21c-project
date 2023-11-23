@@ -9,12 +9,13 @@ public class Main {
         runnerJosip josip = new runnerJosip("josip");
         runnerLester lester = new runnerLester("lester");
         runnerJoash joash = new runnerJoash("Joash");
-        
+        runnerJethro jethro = new runnerJethro("Jethro");
         
         runner.RunnerPlacement();
         josip.RunnerPlacement();
         lester.RunnerPlacement();
         joash.RunnerPlacement();
+        jethro.RunnerPlacement();
     }
     
 }
