@@ -1,10 +1,8 @@
-
 package Polymorphism;
 
+class Runner {
 
- class Runner {
-    
-    public void RunnerPlacement(){
-        System.out.println( "Runners are running");
-}
+    public void RunnerPlacement() {
+        System.out.println("Runners are running");
+    }
 }

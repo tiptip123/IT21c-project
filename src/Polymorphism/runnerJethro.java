@@ -8,7 +8,7 @@ public class runnerJethro {
     runnerJethro(String name){
      this . name = name;   
     }
-    public void RunnerPlacement(){
-        System.out.println( name +" is at 4th place, following Joash");
-}
+    public void RunnerPlacement() {
+        System.out.println(name + " is at 4th place, following Joash");
+    }
 }
