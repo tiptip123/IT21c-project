@@ -2,7 +2,7 @@
 package Polymorphism;
 
 
-public class Runner {
+ class Runner {
     
     public void RunnerPlacement(){
         System.out.println( "Runners are running");
