@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Abstract_Color_LAB_Exrecise;
 
-/**
- *
- * @author Admin
- */
-public class Dog {
-    
+
+public class Dog extends Pet{
+    String name;
+    Dog(String name){
+    this.name = name;
 }
+   
+    
+
+    @Override
+    public void Color() {
+        System.out.println(name+"is a black Dog");
+    }
+    }
+
