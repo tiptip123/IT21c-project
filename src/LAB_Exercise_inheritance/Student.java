@@ -2,6 +2,13 @@
 package LAB_Exercise_inheritance;
 
 
-public class Student {
+ class Student extends Person {
+  
+    public Student(String name, String dateOfBirth) {
+        super(name, dateOfBirth);
+    }
     
+    
+     
+     
 }
