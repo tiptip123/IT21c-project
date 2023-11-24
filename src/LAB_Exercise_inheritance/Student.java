@@ -1,14 +1,25 @@
+package LAB_Exercise_Inheritance;
 
-package LAB_Exercise_inheritance;
+public class Student extends Person {
 
+    private String major;
 
- class Student extends Person {
-  
-    public Student(String name, String dateOfBirth) {
-        super(name, dateOfBirth);
+    public Student(String name, int yearOfBirth, String major) {
+        super(name, yearOfBirth);
+        this.major = major;
     }
-    
-    
-     
-     
+
+    public String getMajor() {
+        return major;
+    }
+
+    public void setMajor(String major) {
+        this.major = major;
+    }
+
+    @Override
+    public String toString() {
+        return "Student: " + getName() + ",Year of Birth:" + getYearOfBirth() + ",Major:" + major;
+    }
+
 }
