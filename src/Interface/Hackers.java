@@ -2,6 +2,9 @@
 package Interface;
 
 
-public class Hackers {
+interface Hackers {
+    
+    public void did();
+    public void didNot();
     
 }

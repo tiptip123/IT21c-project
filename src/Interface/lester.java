@@ -1,14 +1,28 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Interface;
 
-/**
- *
- * @author Admin
- */
-public class lester {
+
+public class lester implements Hackers {
+    String name;
+    
+    lester(String name){
+     this.name=name;   
+    }
+
+   
+    public void did() {
+        
+         System.out.println(name +" hacked his gfs phone.");
+    }
+
+    
+    public void didNot() {
+       
+         System.out.println(name +" gamit ayayay nga phone");
+    }
+    
+    
+    
+    
     
 }

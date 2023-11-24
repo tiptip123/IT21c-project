@@ -1,14 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Interface;
 
-/**
- *
- * @author Admin
- */
-public class mj {
+
+public class mj implements Hackers{
+    String name;
+    
+    mj(String name){
+        this.name = name;
+    }
+
+    
+    public void did() {
+        
+         System.out.println(name +" hacked his bestfriends phone.");
+    }
+
+   
+    public void didNot() {
+        
+         System.out.println(name +" peru na trace siyas NBI.");
+    }
+    
     
 }

@@ -1,14 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Interface;
 
-/**
- *
- * @author Admin
- */
+
 public class Main {
+    public static void main (String [] args){
+        josip jos = new josip("josip");
+        lester les = new lester("Lester");
+        mj m = new mj("Mj");
+        
+        
+        jos.did();
+        jos.didNot();
+        les.did();
+        les.didNot();
+        m.did();
+        m.didNot();
+    }
+    
     
 }
